@@ -1,0 +1,11 @@
+[package]
+name = "what"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "what"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "*"
