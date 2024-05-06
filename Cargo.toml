@@ -8,4 +8,4 @@ name = "what"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "*"
+pyo3 = { version = "*", features = ["experimental-declarative-modules"] }
